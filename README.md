@@ -17,7 +17,7 @@ Understanding the incidence of Lyme can help health officials plan for education
 
 # Data
 
-For official case counts, we plan to use the CDC "County Level Lyme Disease Data 2010-2019", which reports the number of confirmed and probable cases on an annual basis. We will augment epidemiological data with features collected from state and local public health sites, the US Census and the National Weather Service. Ongoing estimates of tick populations are available National Ecological Observatory Network.
+For official case counts, we plan to use the CDC "County Level Lyme Disease Data 2010-2019", which reports the number of confirmed and probable cases on an annual basis. We will augment epidemiological data with features collected from state and local public health sites, the US Census and the National Weather Service. Ongoing estimates of tick populations are available from the National Ecological Observatory Network.
 
 Our ideal dataset would combine public health surveillance data with insurance claims to get a holistic view of the number of diagnosed and potential cases. However, insurance claims data are costly and highly restricted. Files accessible to the public include the Synthetic Healthcare Database for Research (Agency for Healthcare Research and Quality). This data set includes diagnoses and is intended to replicate the structure and marginal distributions of original insurance claims data. However, it does not apply to the state or local levels.
 Given limitations on insurance claims data, we need to treat the case count as a latent variable. We will combine available insurance data with the results of past studies using claims data to inform our estimate of the true case count.
